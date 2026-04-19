@@ -15,7 +15,6 @@ This project demonstrates automated API testing using **Java, RestAssured, TestN
 * Get Pet by ID (GET)
 * Update Pet (PUT)
 * Delete Pet (DELETE)
-* Negative test (invalid pet ID)
 
 ## Assertions
 
@@ -26,10 +25,25 @@ This project demonstrates automated API testing using **Java, RestAssured, TestN
 
 ## API Used
 
+Swagger Petstore API
 https://petstore.swagger.io
 
 ## Run Tests
 
-```bash
+Run the test suite using Maven:
+
 mvn clean test
-```
+
+## Project Structure
+
+petstore-api-test-automation
+│
+├── pom.xml
+├── testng.xml
+├── README.md
+│
+└── src
+  └── test
+    └── java
+      └── requests
+        └── ApiTests.java
