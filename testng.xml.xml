@@ -2,7 +2,7 @@
 <suite name="API Test Suite">
     <test name="Pet API Tests">
         <classes>
-            <class name="requests.ApiTests"/>
+            <class name="tests.ApiTests"/>
         </classes>
     </test>
 </suite>
